@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// import headerImg from "../assets/img/header-img.svg";
 import headerImg from "../assets/img/contact.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -75,7 +76,7 @@ I'm interested in building full-stack web applications.
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img  src={headerImg} style={{height:"40rem", width:"40rem"}} alt="Header Img"/>
+                  <img  src={headerImg}  alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
