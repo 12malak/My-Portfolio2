@@ -57,9 +57,9 @@ export const NavBar = () => {
                 <a href="https://github.com/12malak"><img style={{width:"20px" , height:"20px"}} src={navIcon2} alt="" /></a>
 
               </div> */}
-              <HashLink to='https://drive.google.com/file/d/1a0gdFZGq6PwH0Hd78Yr2yZWg136CZgeZ/view?usp=sharing'>
+              <HashLink to='https://drive.google.com/file/d/1MnfLc4DvCdr9SUjFcV4wjmKDLYUogF8F/view?usp=sharing'>
 
-   
+              {/* <HashLink to='https://drive.google.com/file/d/1a0gdFZGq6PwH0Hd78Yr2yZWg136CZgeZ/view?usp=sharing'> */}
   
                 <button className="vvd"><span>
                 {/* Let’s Connect */}
