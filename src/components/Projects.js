@@ -6,6 +6,11 @@ import projImg3 from "../assets/img/proj33.png";
 import projImg4 from "../assets/img/proj44.png";
 import projImg5 from "../assets/img/proj5.png";
 import projImg6 from "../assets/img/proj66.png";
+import projImg7 from "../assets/img/hadiyyeeh.png";
+import projImg8 from "../assets/img/basma.png";
+import projImg9 from "../assets/img/kasselsoft.png";
+
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -14,7 +19,27 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
-
+    {
+      title: "Basma",
+      description: "This educational platform is designed specifically for Tawjihi students. It offers high-quality educational content with robust security against unauthorized access and misuse.",
+      imgUrl: projImg8, // Add appropriate image
+      githubLink: "https://github.com/12malak/Basma-front",
+      demoLink: "https://ba9maonline.com/"
+    },
+    {
+      title: "Kasselsoft",
+      description: "A bilingual website with an intuitive control panel for managing job listings and blog content. Features sorting and managing job duration in Arabic and English.",
+      imgUrl: projImg9, // Add appropriate image
+      githubLink: "https://github.com/12malak/kasselsoft_frontend",
+      demoLink: "https://www.kasselsoft.com/en"
+    },
+    {
+      title: "Hadiyyeh",
+      description: "An electronic store for online sales, featuring a bilingual interface in English and Arabic, with dark/light mode options for a personalized experience. Developed at KasselSoft Company.",
+      imgUrl: projImg7, // Add appropriate image
+      githubLink: "https://github.com/12malak/hadiyyeh",
+      demoLink: "https://kassel.icu/en"
+    },
     {
       title: "Friends of wheat allergy sufferers",
       description: "I designed my website specifically for wheat allergy patients to help them search for healthy and diverse alternatives to meet their nutritional needs",
@@ -33,7 +58,8 @@ export const Projects = () => {
       title: "Goodbye anemia",
       description: "We have dedicated an entire site for you to treat anemia by displaying various medical prescriptions and the most important vegetables and fruits that help treat anemia",
       imgUrl: projImg5,
-      githubLink: " https://github.com/12malak/masterpiece"
+      githubLink: " https://github.com/12malak/masterpiece",
+      demoLink: "https://12malak.github.io/masterpiece/"
      
     },
 
@@ -48,7 +74,8 @@ export const Projects = () => {
       title: "PixelPro",
       description: "This repository is dedicated to the Front-End Quiz, a resource designed to test and improve your knowledge of HTML, CSS, and JavaScript - the core technologies of front-end web development.",
       imgUrl:projImg4,
-      githubLink: "https://github.com/12malak/project#this-repository-is-dedicated-to-the-front-end-quiz-a-resource-designed-to-test-and-improve-your-knowledge-of-html-css-and-javascript---the-core-technologies-of-front-end-web-development"
+      githubLink: "https://github.com/12malak/project#this-repository-is-dedicated-to-the-front-end-quiz-a-resource-designed-to-test-and-improve-your-knowledge-of-html-css-and-javascript---the-core-technologies-of-front-end-web-development",
+      demoLink: "https://bashar-alamoush.github.io/Organization/"
     },
     {
       title: "Give Life",
@@ -103,6 +130,27 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                    <div className="text-center">
+                    <h2>Full Stack Web Developer
+                     </h2> 
+                     <span>Coding Academy by Orange 7 Months
+Full-stack Bootcamp</span>
+                      <p>  
+                      I have experience in developing and maintaining web applications using React.js and other related technologies .I have also participated in code reviews and provided constructive feedback to other developers. I understand the importance of code quality and am committed to following best practices and industry standards to produce maintainable and scalable code.
+</p>
+ 
+</div>
+<div  className="text-center">
+<h2> Php + SQL Developer
+ 
+                     </h2> 
+                     <span>course in beprogrammer
+</span>
+<p>
+Completed an intensive internship focused on PHP application development, gaining practical experience in both front-end and back-end development using HTML, CSS, MySQL, and PHP.
+</p>
+</div>
+
                     <div  className="text-center">
 <h2>Bachelor’s Software Engineering
  
@@ -114,53 +162,30 @@ Gain a solid understanding of the principles, methods, and tools used to design,
 </p>
 </div>
 
-<div  className="text-center">
-<h2> Php + SQL Developer
- 
-                     </h2> 
-                     <span>course in beprogrammer
-</span>
-<p>
-Completed an intensive internship focused on PHP application development, gaining practical experience in both front-end and back-end development using HTML, CSS, MySQL, and PHP.
-</p>
-</div>
-                    <div className="text-center">
-                    <h2>Full Stack Web Developer
-                     </h2> 
-                     <span>Coding Academy by Orange 7 Months
-Full-stack Bootcamp</span>
-                      <p>  
-                      I have experience in developing and maintaining web applications using React.js and other related technologies .I have also participated in code reviews and provided constructive feedback to other developers. I understand the importance of code quality and am committed to following best practices and industry standards to produce maintainable and scalable code.
-</p>
- 
-</div>
 
+                   
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    
-                    <div className="text-center">
-                    {/* <h2>Full Stack Web Developer
-                     </h2> 
-                     <span>Coding Academy by Orange 7 Months
-                                Full-stack Bootcamp</span> */}
-                     
-                      <p>  
-                      Collaborated with <span >team members</span>  on group projects, utilizing effective communication and task coordination to deliver project milestones.</p>
-                      <p>  
-                      Worked extensively with <span >Trello</span>  as an agile project
-management tool, ensuring efficient organization and task
-tracking within groups.
-                      </p>
-                      <p>  
-                      Utilized <span >GitHub</span>  organization to manage code repositories,
-enabling seamless collaboration and version control.
-                      </p>
-                      <p>  
-                      Acquired experience in using version control systemslike <span >Git</span> to manage code and collaborate with peers
-                   </p>
- 
-</div>
-                    </Tab.Pane>
+  <div className="text-center">
+    <h2>Full Stack Developer at KasselSoft</h2>
+    <p>Designed and developed full-stack web applications using <span >MySQL, Express, React, and Node.js</span>.</p>
+    <p>Built scalable <span>RESTful APIs</span> and implemented secure authentication using <span >JWT</span>, while optimizing database performance.</p>
+    <p>Contributed to systems development, including an <span >educational platform</span> and an <span >e-commerce solution</span>.</p>
+    <p>Utilized <span >Git</span> and <span >GitHub</span> for version control and collaborative development.</p>
+    <p>Applied <span >Agile methodologies</span> to ensure effective project management and iterative solution delivery.</p>
+    <p>Strong understanding of <span >Object-Oriented Programming (OOP)</span> principles, with proficiency in optimizing code through <span >Algorithms & Data Structures</span>.</p>
+    <p><strong>Technologies:</strong> <span >JavaScript, MongoDB, Express.js, React, Node.js, SQL</span>.</p>
+    
+    <h2>Trainee at Coding Academy by Orange</h2>
+    <p>Completed an intensive Full Stack Web Development course in collaboration with <span >Simplon.co</span> and <span >Princess Sumaya University for Technology (PSUT)</span>.</p>
+    <p>Gained in-depth knowledge of front-end and back-end technologies, as well as <span >Agile methodologies</span> for collaborative projects.</p>
+    <p>Developed hands-on experience in <span >JavaScript, Node.js, React.js, SQL,</span> and <span >MongoDB</span> through various practical projects.</p>
+    <p>Strengthened skills in <span>team collaboration</span>,<span>problem-solving</span> , and <span>real-world software development practices</span>.</p>
+  </div>
+</Tab.Pane>
+
+
+
                  
                   </Tab.Content>
                 </Tab.Container>

@@ -16,6 +16,7 @@ export const Footer = () => {
             <h2 style={{color:"white"}}>MF</h2>
             <p className="mt-0"> 0790441532
 </p>
+
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

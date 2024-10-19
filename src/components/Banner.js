@@ -58,13 +58,11 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Malak Alfarwan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Software Engineering" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>
-                  Software Engineer, graduate from Zurqa University and was also a trainee at Orange Coding Academy in Jordan. 
-I have developed my skills in HTML5, CSS, JavaScript, Bootstrap, React.js, Node.js, SQL, React framework and I have an interest and willingness to learn new languages and tools.
-I'm interested in building full-stack web applications.
-                  
-                  </p>
-          
+                <p>
+  Software Engineer, graduate of Zurqa University, and former trainee at Orange Coding Academy in Jordan. As a Full Stack Developer at KasselSoft, I developed full-stack web applications, built scalable RESTful APIs, and contributed to an educational platform and e-commerce solution, utilizing MySQL, Express, React, Node.js, JWT, and Agile methodologies.
+</p>
+
+
                   {/* <button onClick={() => console.log('Projects')}>Let’s My Projects <ArrowRightCircle size={25} /></button> */}
                   <button onClick={() => document.getElementById('project').scrollIntoView({ behavior: 'smooth' })}>Let’s My Projects <ArrowRightCircle size={25} /></button>
 
