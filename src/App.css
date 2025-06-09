@@ -49,6 +49,14 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
+
+.custom-tab:hover {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) !important;
+  color: #fff !important;
+  transition: 0.3s ease-in-out;
+}
+
+
 a:hover {
   text-decoration: none;
 }
@@ -66,6 +74,95 @@ button {
 input:focus, textarea:focus, select:focus {
   outline: none;
 }
+
+
+/************ MyExperience Css ************/
+.timeline {
+  padding: 30px 0;
+   position: relative;
+  
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(to bottom, #AA367C, #4A2FBD);
+  z-index: 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.timeline-content {
+  background: black;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 25px;
+  color: #ddd;
+  transition: transform 0.3s ease;
+   max-width: 100%;
+  width:100%;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(170, 54, 124, 0.3);
+}
+
+.timeline-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.timeline-content h4 span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.text-muted {
+  color: #888 !important;
+  font-size: 14px;
+}
+
+.tech-stack {
+  margin-top: 15px;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 25px;
+  font-size: 13px;
+  margin: 5px 5px 0 0;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .timeline-content {
+    max-width: 90%; /* يجعل المحتوى يظهر بشكل متناظر */
+  }
+}
+
 
 @media (min-width:1700px) {
 	main .container {
@@ -340,6 +437,68 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
+/************ Certificate  Css ************/
+.education {
+
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.education h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.certificate-card {
+  
+ 
+  padding: 20px;
+  max-width: 35rem;
+ 
+ 
+}
+
+
+@media (max-width: 768px) {
+  .certificate-card:nth-child(2) {
+    align-self: unset;
+    margin-top: 0;
+  }
+
+  .certificates {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.certificate-card:hover {
+  transform: translateY(-10px);
+}
+
+.certificate-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.certificate-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.certificate-card p {
+  font-size: 16px;
+  color: #ccc;
+}
+
 
 /************ Projects Css ************/
 .project {

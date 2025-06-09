@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import { Card, Button } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl, githubLink, demoLink }) => {
+export const ProjectCard = ({ title, description, imgUrl, githubLink, demoLink , category }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -10,6 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubLink, demoLink }
           <h4>{title}</h4>
           <span>{description}</span>
           <br />
+            {githubLink && category !== "wordpress" && (
           <Button
             className="But"
             style={{ fontSize: "15px", color: "#121212", backgroundColor: "#fff", fontWeight: "700" }}
@@ -18,7 +19,7 @@ export const ProjectCard = ({ title, description, imgUrl, githubLink, demoLink }
           >
             GitHub
           </Button>
-          
+           )}
           {demoLink && (
             <Button
               className="But"
