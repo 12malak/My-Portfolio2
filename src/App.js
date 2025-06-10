@@ -16,11 +16,12 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Education />
+     
        <MyExperience/>
       <Projects />
       
       <Contact />
+       <Education />
       <Footer />
     </div>
   );

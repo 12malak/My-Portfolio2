@@ -23,6 +23,7 @@ export const Education = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

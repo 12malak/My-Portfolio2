@@ -12,7 +12,8 @@ import projImg9 from "../assets/img/kasselsoft.png";
 import projImg10 from "../assets/img/blue2.png";
 import projImg11 from "../assets/img/rum.png";
 import projImg12 from "../assets/img/Kayan.png";
-
+import projImg13 from "../assets/img/Firas.png";
+import projImg14 from "../assets/img/Luxury.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -37,6 +38,23 @@ export const Projects = () => {
       description: "WordPress site with translation.",
       imgUrl: projImg12,
       demoLink: "https://kayanconsultant.com/home-en/",
+      category: "wordpress"
+    },
+    {
+  title: "Firas Engineering Consultancy",
+  description: " The site showcases their portfolio across villas, towers, industrial, and government projects with a clean design and smooth user experience.",
+  imgUrl: projImg13,
+  demoLink: "https://firas-eng.com/",
+  category: "wordpress"
+}
+,
+ {
+      title: "Luxury Yacht Rental Dubai",
+      description: "Built a bilingual WordPress site for a Dubai-based luxury yacht rental company with booking features and elegant design."
+
+,
+      imgUrl: projImg14,
+      demoLink: "https://primeyacht.ae/",
       category: "wordpress"
     },
     {
@@ -133,7 +151,7 @@ export const Projects = () => {
   <Nav.Link eventKey="wordpress" className="custom-tab">WordPress</Nav.Link>
 </Nav.Item>
 <Nav.Item>
-  <Nav.Link eventKey="react-node" className="custom-tab">React & Node.js</Nav.Link>
+  <Nav.Link eventKey="react-node" className="custom-tab">Web Development</Nav.Link>
 </Nav.Item>
 
                     </Nav>
