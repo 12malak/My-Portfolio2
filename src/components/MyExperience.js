@@ -29,7 +29,7 @@ const experiences = [
     period: "Feb 2024 – Oct 2024",
     description:
       "Designed and developed full-stack applications. Built scalable APIs, implemented authentication, and developed educational and e-commerce platforms.",
-    technologies: ["Html","css", "Bootstrap" ,"React", "Node.js", "Express", "SQL"],
+    technologies: ["Html","css","JavaScript", "Bootstrap" ,"React", "Node.js", "Express", "MySql"],
   },
   {
     role: "Trainee Developer",

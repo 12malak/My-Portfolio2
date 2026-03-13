@@ -6,24 +6,42 @@ import projImg3 from "../assets/img/proj33.png";
 import projImg4 from "../assets/img/proj44.png";
 import projImg5 from "../assets/img/proj5.png";
 import projImg6 from "../assets/img/proj66.png";
-import projImg7 from "../assets/img/Mazr3tna2.png";
+import projImg7 from "../assets/img/hadiyyeeh.png";
 import projImg8 from "../assets/img/basma.png";
 import projImg9 from "../assets/img/kasselsoft.png";
 import projImg10 from "../assets/img/blue2.png";
-import projImg11 from "../assets/img/rum.png";
+import projImg11 from "../assets/img/alamari.png";
 import projImg12 from "../assets/img/Kayan.png";
 import projImg13 from "../assets/img/Firas.png";
 import projImg14 from "../assets/img/Luxury.png";
+import projImg15 from "../assets/img/medanconsulting (2).png";
+import projImg16 from "../assets/img/ryadh.png";
+import projImg17 from "../assets/img/mahallystore.png";
+import projImg18 from "../assets/img/Archipolis.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Rum Legend Luxury & Camp",
-      description: "WordPress tourism website.",
+      title: "Alamari Group",
+      description: "Real Estate Company Website ",
       imgUrl: projImg11,
-      demoLink: "https://legendcamps.com/",
+      demoLink: "https://alamari-group.com/",
+      category: "wordpress"
+    },
+     {
+      title: "Mahally",
+      description: "Digital Marketplace for Local Businesses ",
+      imgUrl: projImg17,
+      demoLink: "https://mahallystore.com/ar/",
+      category: "wordpress"
+    },
+     {
+      title: "Medan Consulting Company",
+      description: "Medan Consulting Company (MCC) ",
+      imgUrl: projImg15,
+      demoLink: "https://alamari-group.com/",
       category: "wordpress"
     },
     {
@@ -31,6 +49,13 @@ export const Projects = () => {
       description: "WordPress agency website + SEO.",
       imgUrl: projImg10,
       demoLink: "https://ba9maonline.com/",
+      category: "wordpress"
+    },
+     {
+      title: "AlRiyadh Academy",
+      description: " for Training and Development ",
+      imgUrl: projImg16,
+      demoLink: "httpsryadh.space",
       category: "wordpress"
     },
     {
@@ -70,15 +95,22 @@ export const Projects = () => {
       description: "React/Node bilingual job site.",
       imgUrl: projImg9,
       githubLink: "https://github.com/12malak/kasselsoft_frontend",
-      demoLink: "https://www.kasselsoft.com/en",
+      demoLink: "https://www.kasselsoft.com/",
       category: "react-node"
     },
     {
-      title: "Mazr3tna",
+      title: "Archipolis",
+      description: " integrated commercial and showroom complex",
+      imgUrl: projImg18,
+      demoLink: "https://darkorchid-goat-815420.hostingersite.com/",
+      category: "wordpress"
+    },
+     {
+      title: "Hadiyyeh",
       description: "E-commerce with eco products.",
       imgUrl: projImg7,
       githubLink: "https://github.com/12malak/hadiyyeh",
-      demoLink: "https://mazr3tna.com/en",
+      demoLink: "https://hadiyyeh.com/",
       category: "react-node"
     },
     {
